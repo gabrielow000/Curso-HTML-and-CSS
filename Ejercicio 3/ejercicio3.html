@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Ejercicio 3 / ClaseCSS - Gabriel Sanchez">  <!--Meta Titulo-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!--Especifica que la pagina se adaptara al ancho del dispositivo-->
+    <title>Ejercicio 3 / Clase CSS</title>
+    <link rel="stylesheet" href="./Ejercicio3.css"> <!--Aqui especificas donde estan tus archivos CSS-->
+
+</head>
+
+<body>
+
+    <header>
+
+        <nav> <!--Como usar Pseudo clases-->
+    
+            <ul class="main-Nav">
+    
+                 <li class="main-nav-item"><a href="">Home</a></li>
+                 <li class="main-nav-item"><a href=>Sobre Nosotros</a></li>
+                 <li class="main-nav-item"><a href=>Blog</a></li>
+                 <li class="main-nav-item"><a href=>Servicios</a></li>
+    
+            </ul>
+    
+        </nav>
+    
+    </header>
+
+<main>
+
+<p class="texto">Soy un texto</p> <!--Agregando CSS por Clases-->
+<p>Soy un texto</p>
+<p id="texto">Soy un texto</p> <!--Agregando CSS por ID-->
+
+<!--Se puede hacer referencia a un elemento en CSS con el tipo de elemento, arriba es "P", agregandole una clase, o con un ID, que se coloca en el CSS con #-->
+
+<h2>Esta es una seccion con modelado de caja</h2>
+
+<section class="caja">
+
+    <h2>Esta es una seccion con modelado de caja</h2>
+    
+    <li>Soy un texto</li>
+    
+
+</section>
+
+<h2>Esta es una seccion con dos columnas</h2>
+
+<section class="caja-padre">
+
+<section class="caja-hijo">
+
+    <li>Soy la caja 1</li>
+
+</section>
+
+<section class="caja-hijo">
+
+<li>Soy la caja 2</li>
+
+</section>
+
+</section>
+
+<!--
+    
+    <h2>Asi se hacen columnas</h2>
+
+<section class="contenedor">
+
+<div class="caja 1"></div>
+<div class="caja 2"></div>
+
+</section>
+
+    .contenedor {position:relative;}
+.caja1 {display: inline-block;width:40%;}
+.caja2 {display: inline-block;width:60%;position:absolute;top:0px;}
+
+-->
+
+
+
+</main>
+    
+</body>
+</html>

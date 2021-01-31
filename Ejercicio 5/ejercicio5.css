@@ -1,0 +1,11 @@
+.texto1 {font-size: 20px;}
+.texto2 {font-size: 80%;}
+.seccion1 {width: 100%;box-sizing: border-box;padding: 0;margin: 0;}
+
+.contenedor-texto {font-size: 20px;}
+.texto4 {font-size: 2em !important;}
+
+.contenedor-texto2 {font-size: 20px;}
+.texto5 {font-size: 2rem !important;}
+
+.contenedor2 {width: 50vw;height: 100px;background-color: darkmagenta;margin: 0 auto;}

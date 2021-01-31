@@ -1,0 +1,5 @@
+h2 + p {color: aqua;}
+h2 ~ p {color: blueviolet;}
+div > p {color: crimson;}
+div > h2 {color: crimson;}
+div > h3 {color: crimson;}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+			<html lang="es"> <!--Le dice al anvegador que idioma se va a manejar-->
+
+		<head> <!--Se coloca aqui la informacion importante como CSS, etc-->
+
+		    <meta charset="UFT-8"> <!--Le dice al navegador que acepte simbolos especiales-->
+		    <meta name="description" content="Esta pagina es una prueba">	<!--Meta Descripcion-->
+		    <meta name="robots" content="index,follow">  <!--Permite a Robots de buscadores hacer busquedas en pagina para indexar--> 
+		    <meta name="title" content="Prueba de Curso HMTL - Gabriel Sanchez">  <!--Meta Titulo-->
+		    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!--Especifica que la pagina se adaptara al ancho del dispositivo-->
+            <link rel="stylesheet" href="./index.css"> <!--Aqui especificas donde esta tu hoja de estilos para el CSS y demas-->
+			<title> Curso HTML - Gabriel Sanchez </title>
+			<!--Aqui puedes colocar directamente tu CSS y solo aplicara a esta pagina-->
+
+		</head>
+
+		<body> <!--Se coloca aqui todo lo demas-->
+			
+			<header> <!--Todo lo que ira en el Header va aqui-->
+
+				<nav class="contenedor">  <!--Barra de navegacion-->
+
+					<div class="caja1">
+
+						<a href="https://innovseo.com"><img src="../media/logo-completo-negro-con-blanco@3x-e1593110397662_015a004d1_4028.png"></a>
+
+					</div>
+
+					<div class="caja2">
+						
+						<ul class="menu">		
+						
+						<li class="menu1"><A href="Ejercicio 1.html">Ejercicio 1</A></li>
+						<li class="menu1"><A href="./claseform/ejercicio 2.html">Ejercicio 2</A></li>
+						<li class="menu1"><A href="./css/ejercicio 3.html">Ejercicio 3</A></li>
+						<li class="menu1"><A href="#logoanimado">Logo Animado</A></li>
+						<li class="menu1"><A href="#empresa">Nuestra empresa</A></li>
+					
+					    </ul>
+				
+					</div>
+			
+
+				</nav>
+
+
+			</header>
+
+			<main> <!--Donde va todo el contenido-->
+
+
+				<h1 id="inicio" class="inicio">Aqui podras ver lo aprendido en el curso de HTML Y CSS</h1>
+
+				<section> <!--Diversas secciones donde se colocara el contenido-->
+
+					<h2>Primera seccion</h2>
+
+					<p class="mobile" style="text-align: justify;">Soy la primera linea de texto de la primera seccion, solo en pc</p>
+					<p class="pc">Soy la primera linea de texto de la primera seccion, solo en mobile</p>
+
+					<article>
+
+						<h3>Primera sub seccion</h3>
+
+						<p>Soy la primera linea de texto de el primer articulo de la primera seccion</p>
+
+					</article> <!--Seccion dentro de seccion-->
+
+				</section>
+				
+				<h2>Segunda seccion</h2>
+				<p>Soy la primera linea de texto de la segunda seccion</p>
+
+					<article>
+						
+						<h3>Segunda sub seccion</h3>
+
+						<p>Soy la primera linea de texto de el primer articulo de la segunda seccion</article>
+
+				</section>
+
+				<ul> <!--Lista desordenada, con puntos-->
+				
+				    <li> <a id="empresa" href="https://www.innovseo.com"> Aqui puedes ver la pagina de nuestra agencia</a></li> <!--Link que te lleva a un sitio-->
+					<li><A href="#inicio">Aqui puedes dirigirte al primer parrafo de esta pagina</a></li> <!--Link que te lleva a una parte de la pagina-->
+					
+
+				</ul>
+
+				<ol> <!--Lista ordenada, con numeros-->
+					
+					<li> Soy el texto numero 1 </li>  <!--Para colocar txt-->
+					<li> Soy el texto numero 2 </li>
+					
+				</ol> 
+
+				<section>
+
+					<h2>Esto es el logo de nuestra empresa</h2>
+
+					<FIGURE> <!--Es un contenedor para imagenes-->
+						<a title="innovseo" href="https://www.innovseo.com"><img id="logo" class="logo" src="../media/logo.png" alt="innovseo"></a>
+					</FIGURE>
+
+				</section>
+
+				<section>
+
+				   <h2 style="margin-top: 40px;">Este es el logo animado de nuestra empresa, presiona para reproducir</h2>
+                   <img id="logoanimado" class="logoanimado" src="../media/ezgif.com-gif-maker.gif">
+
+				</section>
+
+				<section>
+
+					<H2 style="margin-bottom: 40px;">Esta es nuestra pagina web</H2>
+
+					<video controls preload="auto"><source src="../media/WhatsApp Video 2021-01-10 at 7.53.09 PM.mp4#t=0,11"/></video>
+
+				</section>
+
+				
+			</main>
+
+			<footer> <!--Todo lo que ira en Footer va aqui-->
+
+			</footer>
+
+		</body>
+
+			</html>			

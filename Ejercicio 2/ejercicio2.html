@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+
+<body>
+
+    <main>
+
+    <h1> Formularios </h1>
+
+<h3>Formulario Normal</h3>
+
+<form action=""> <!--Etiqueta semantica que dice al navegador que viene un formulario-->
+    
+    <label for="Nombre"> <!--Usada para especificar que viene un formulario, colocar mismo id que en input, usar en vez de Div-->
+
+    <span> Cual es tu nombre?</span> <!--Texto para el formulario-->
+    <input type="text" id="Nombre" placeholder="Nombre"> <!--campo para rellenar, varia el tipo, especificar id, usar name para enviar la info de el campo-->
+
+</label>
+
+<label for="dia-hoy">
+
+    <span> Que dia es hoy?</span>
+    <input type="date" id="dia-hoy" placeholder="Dia de hoy">
+
+</label>
+
+<label for="hora-hoy">
+
+    <span> Que hora es?</span>
+    <input type="time" id="hora-hoy" placeholder="Que hora es?">
+
+</label>
+
+</form>
+
+<h3>Formulario de calendario</h3>
+
+<form action="">
+
+    <label for="hora">
+
+        <span> Aqui colocas la hora </span>
+
+        <input type="time" id="hora" name="hora">
+        
+    </label>
+
+    <label for="dia">
+
+        <span> Aqui colocas el dia </span>
+    
+        <input type="date" id="dia" name="dia"> 
+
+    </label>
+
+    <label for="Semana">
+
+        <span> Aqui colocas la semana </span>
+        
+        <input type="week" id="Semana" name="Semana"> 
+
+    </label>
+
+    <label for="mes">
+
+        <span> Aqui colocas el mes </span>
+            
+        <input type="month" id="mes" name="mes"> y
+
+    </label>
+
+    <input type="submit">
+
+</form>
+
+<h3>Calendario Date-Time Local</h3>
+
+<form action="">
+
+
+<label for="calendario2">
+
+    <span>Aqui colocas la fecha en la que estas ahora</span>
+    
+    <input type="datetime-local" id="calendario2" name="calendario">
+
+</label>
+
+<input type="submit">
+
+</form>
+
+<h3>Formulario con respuestas obligatorias</h3>
+    
+<form action="">
+
+    <label for="nombre">
+
+        <span>Cual es tu nombre?</span>
+
+        <input type="text" id="nombre" name="nombre" autocomplete="name" placeholder="Nombre"> <!--Aqui se agrego el atributo autocomplete para sugerir respuestas al usuario-->
+
+    </label>
+
+    <label for="correo">
+
+        <span>Cual es tu correo?</span>
+
+        <input type="email" id="correo" name="correo" autocomplete="email" placeholder="Correo" required> <!--Aqui se coloco atributo REQUIRED para ser respuesta obligatoria-->
+
+    </label>
+
+    <label for="hora">
+
+        <span>Que hora es?</span>
+
+        <input type="time" id="hora" name="hora" placeholder="Hora">
+
+    </label>
+
+    <input type="submit">
+
+</form>
+
+<h3>Formulario de seleccion simple, Opcion 1</h3>
+
+<form action="">
+
+    <label for="evento">
+
+        <span>Selecciona el evento que quieres celebrar</span>
+
+        <select name="evento" id="evento" required> <!-- Asi se generas formularios de seleccion simple, opcion 1-->
+
+            <option value="baby shower">Baby Shower</option>
+            <option value="Quinces">Quinces</option>
+            <option value="Corporativo">Corporativo</option>
+
+        </select>
+
+    </label>
+
+    <input type="submit"> <!-- // solo para enviar formularios -->
+
+</form>
+
+<h3>Formulario de seleccion simple, Opcion 2</h3>
+
+<form action="">
+
+    <span>Selecciona el evento que deseas celebrar</span>
+
+    <input list="eventos" name="eventos" required> 
+    <datalist id="eventos">
+
+        <option value="baby shower"></option>
+        <option value="Quinces"></option>
+        <option value="Corporativo"></option>
+
+    </datalist>
+    
+    <button type="submit">Reservar tu evento!</button> <!-- // lo usaremos para cualquier caso en el que necesitemos un boton, si quieres usar un button en un formulario debes agregarle el type = "submit" --> 
+
+</form>
+
+</main>
+</body>
+</html>

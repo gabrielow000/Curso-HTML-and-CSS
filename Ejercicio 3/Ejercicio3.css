@@ -1,0 +1,12 @@
+.texto {color:red;font-size: 30px;}
+#texto {color: blueviolet;font-size: 40px;}
+.main-Nav {list-style: none;}
+.main-nav-item {display: inline-block;padding-top: 10px;padding-bottom: 10px;padding-left: 20px;padding-right: 20px;background-color: cyan;margin: 10px; border-radius: 10px;border-style: solid;border-color: transparent;}
+.main-nav-item a {color: darkgrey;text-decoration: none;}
+.main-nav-item:hover{color: darkred;border-style: solid;border-color:violet;border-radius: 10px;}
+.main-nav-item a:active {color: blue;}
+.columna1 {display: inline-block;;columns: 3;;}
+.caja {width: 100%;height: auto;border: aqua solid;padding-top: 20px;padding-bottom: 20px;}
+.ejercicio3.html {box-sizing: border-box;}
+.caja-padre {columns: 2;width: 100%;height: auto;padding-bottom: 20px;padding-top: 20px;border-style:solid;border-color: aqua;}
+.caja-hijo {width: auto;border-style:solid;border-color: red;padding-left: 10px;padding-right: 10px;}
