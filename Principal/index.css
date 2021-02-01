@@ -1,5 +1,3 @@
-
-
 .menu1 {
     display: inline-block;
     padding-top: 10px;
@@ -13,6 +11,6 @@
 .menu a:hover {color:white;}
 .contenedor {position:relative;}
 .caja1 {display: inline-block;width:40%;}
-.caja2 {display: inline-block;width:60%;position:absolute;margin-top: 0px;}
+.caja2 {display: inline-block;width:60%;position:absolute;margin-top: 0px;flex-wrap: wrap;}
 s
 .item-header {list-style: none;}

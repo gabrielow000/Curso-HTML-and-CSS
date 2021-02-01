@@ -1,0 +1,11 @@
+:root {
+    --colorprimario: #ff0000;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+p {background-color:var(--colorprimario);}

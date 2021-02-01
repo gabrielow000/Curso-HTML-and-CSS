@@ -24,8 +24,10 @@
     border-color: black;
     display: flex; 
     margin-top: 30px;
-    flex-wrap: wrap;
+    height: auto;
 }
+
+*Puedes colocar Align-items para un contenedor Flex y poder manipular la posicion de los elementos*
 
 .box {
     width: 100%;
@@ -34,30 +36,37 @@
 
 
 .boxx {
-    width: 100px;
     height: 100px;
+    flex-basis: 25px;
+    flex-grow: 1;
 }
 
 .box1 {
     background-color: red;
+    order: 1;
 }
 
 .box2 {
     background-color:royalblue;
+    order: 3;
 }
 
 .box3 {
     background-color:sienna;
+    order: 4;
 }
 
 .box4 {
-    background-color:slateblue
+    background-color:slateblue;
+    order: 5;
 }
 
 .box5 {
-    background-color:tomato
+    background-color:tomato;
+    order: 2;
 }
 
 .box6 {
-    background-color:yellowgreen
+    background-color:yellowgreen;
+    order: 6;
 }
